@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: http-server
+  ports:
+    - "${APP_PORT}:8080"
+  volumes:
+    - ".:/code"  

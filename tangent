@@ -1,0 +1,18 @@
+project_name: dashboard
+git_repo: Dashboard-WebClient
+git_organization: TangentMicroServices
+
+app_health_path: '/'
+hipchat_room: "MicroServices"
+
+build_commands: 
+  - "babel --presets react src --watch --out-dir build"
+test_commands: []
+pre_service_up_commands: []
+post_service_up_commands: []
+
+# service optionals:
+consul_tags: 
+  - tangent_app
+  - visibility_internal
+  - nginx_proxy
