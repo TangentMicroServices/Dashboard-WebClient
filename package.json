@@ -1,0 +1,15 @@
+{
+  "name": "Dashboard",
+  "devDependencies": {
+    "babel-preset-react": "latest"
+  },
+  "scripts": {
+    "run": "http-server",
+    "build": "babel --presets react src --out-dir build",
+    "watch": "npm install && babel --presets react src --watch --out-dir build",
+    "clean": "rm -r dist/*",
+
+    "prebuild": "npm install",
+    "prerun": "npm run build"
+  }
+}
