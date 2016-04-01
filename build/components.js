@@ -1,5 +1,3 @@
-
-
 var DashboardGrid = React.createClass({
 		displayName: "DashboardGrid",
 
