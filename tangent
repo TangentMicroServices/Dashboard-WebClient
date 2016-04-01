@@ -5,8 +5,7 @@ git_organization: TangentMicroServices
 app_health_path: '/'
 hipchat_room: "MicroServices"
 
-build_commands: 
-  - "babel --presets react src --watch --out-dir build"
+build_commands: []
 test_commands: []
 pre_service_up_commands: []
 post_service_up_commands: []
