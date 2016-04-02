@@ -5,7 +5,7 @@
   },
   "scripts": {
     "run": "http-server",
-    "build": "babel --presets react src --out-dir build && cp ",
+    "build": "babel --presets react src --out-dir build && cp react-0.14.7/build/* build/",
     "watch": "npm install && babel --presets react src --watch --out-dir build",
     "clean": "rm -r dist/*",
 
