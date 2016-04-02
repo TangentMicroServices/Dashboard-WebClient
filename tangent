@@ -6,7 +6,8 @@ app_health_path: '/'
 hipchat_room: "MicroServices"
 
 # not necessary because build is a pre-run job in npm setup
-build_commands: []
+build_commands: 
+  - npm run build
 test_commands: []
 pre_service_up_commands: []
 post_service_up_commands: []

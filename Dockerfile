@@ -1,6 +1,5 @@
 FROM node:5.9
 RUN mkdir /code
-WORKDIR /code
-ADD . /code/
-RUN npm install -g babel-cli http-server
+WORKDIR /usr/share/nginx/html
+RUN npm install -g babel-cli
 RUN npm install

@@ -1,7 +1,11 @@
 web:
   build: .
-  command: http-server
+  command: npm run build
+  volumes: 
+    - .:/usr/share/nginx/html
+nginx:
+  image: nginx:stable
+  volumes: 
+    - .:/usr/share/nginx/html
   ports:
-    - "${APP_PORT}:8080"
-  volumes:
-    - ".:/code"  
+    - "${APP_PORT}:80"

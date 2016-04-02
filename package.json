@@ -5,7 +5,7 @@
   },
   "scripts": {
     "run": "http-server",
-    "build": "babel --presets react src --out-dir build",
+    "build": "babel --presets react src --out-dir build && cp ",
     "watch": "npm install && babel --presets react src --watch --out-dir build",
     "clean": "rm -r dist/*",
 
