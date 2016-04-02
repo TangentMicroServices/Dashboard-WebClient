@@ -5,13 +5,17 @@ git_organization: TangentMicroServices
 app_health_path: '/'
 hipchat_room: "MicroServices"
 
+# not necessary because build is a pre-run job in npm setup
 build_commands: []
 test_commands: []
 pre_service_up_commands: []
 post_service_up_commands: []
 
+with_nginx: yes
+nginx_access_restricted: yes
+
 # service optionals:
 consul_tags: 
   - tangent_app
-  - visibility_internal
+  - access_restricted
   - nginx_proxy
