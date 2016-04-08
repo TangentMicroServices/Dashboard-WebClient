@@ -1,8 +1,8 @@
 var data = [
 	{id: 1, name: "Consul", logo: "static/images/consul.jpg", href: "http://consul.tngnt.co" },	
 	{id: 3, name: "Jenkins", logo: "static/images/jenkins-340x340.png", href: "http://jenkins.tngnt.co"},
-	{id: 4, name: "TimeTracker", logo: "static/images/tangent.png", href: "http://timetracker.tngnt.co"},	
-	{id: 6, name: "API Docs", logo: "static/images/docs.png", href: "http://docs.tngnt.co"}
+	{id: 4, name: "TimeTracker", logo: "static/images/tangent.png", href: "http://timetracker-version2.tngnt.co"},	
+	{id: 6, name: "API Docs", logo: "static/images/docs.png", href: "http://documentation.tngnt.co"}
 ]
 var data_wishlist = [
 	{id: 5, name: "Project", logo: "static/images/project.png", href: "http://project.tngnt.co"},
